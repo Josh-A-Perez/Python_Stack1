@@ -82,6 +82,7 @@ dojo = {
 'instructors': ['Michael', 'Amy', 'Eduardo', 'Josh', 'Graham', 'Patrick', 'Minh', 'Devon']
 }
 printInfo(dojo)
+
 """
 7 LOCATIONS
 San Jose
