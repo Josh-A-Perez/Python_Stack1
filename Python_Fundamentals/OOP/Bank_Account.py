@@ -34,13 +34,19 @@ class BankAccount:
         return self
 
 Josh = BankAccount(0,300)
-
+Josh.deposit(100)
+Josh.deposit(250)
 Josh.deposit(400)
 Josh.withdraw(30)
 Josh.yield_interest(.05)
 
 Rick = BankAccount(0,1000)
 
+Rick.deposit(350)
 Rick.deposit(200)
 Rick.withdraw(20)
+Rick.withdraw(80)
+Rick.withdraw(100)
+Rick.withdraw(40)
+
 Rick.yield_interest(.02)
