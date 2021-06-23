@@ -35,19 +35,9 @@ class BankAccount:
 
 Josh = BankAccount(.03,1000)
 
-Josh.deposit(100)
-Josh.deposit(120)
-Josh.deposit(200)
-Josh.withdraw(60)
-Josh.yield_interest().display_account_info()
+Josh.deposit(100).deposit(120).deposit(200).withdraw(60).yield_interest().display_account_info()
 
+###################################################################################################
 Rick = BankAccount(.02,1000)
 
-Rick.deposit(350)
-Rick.deposit(200)
-Rick.withdraw(20)
-Rick.withdraw(80)
-Rick.withdraw(100)
-Rick.withdraw(40)
-
-Rick.yield_interest().display_account_info()
+Rick.deposit(350).deposit(200).withdraw(20).withdraw(80).withdraw(100).withdraw(40).yield_interest().display_account_info()
