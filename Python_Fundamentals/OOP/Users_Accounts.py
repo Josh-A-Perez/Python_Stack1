@@ -9,7 +9,7 @@ class User:
 
     def deposit(self,amount):
         self.account.deposit(amount)
-
+''
     def display_account_info(self):
         self.account.display_account_info()
     
