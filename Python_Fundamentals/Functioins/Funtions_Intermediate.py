@@ -1,6 +1,5 @@
-"""
-Update Values in Dictionaries and Lists
-"""
+# Update Values in Dictionaries and Lists
+
 
 x = [ [5,2,3], [10,8,9] ]
 students = [
@@ -12,9 +11,8 @@ sports_directory = {
     'soccer' : ['Messi', 'Ronaldo', 'Rooney']
 }
 z = [ {'x': 10, 'y': 20} ]
-"""
-answer
-"""
+# answer
+
 
 x[1][0]=15
 print(x)
@@ -27,9 +25,8 @@ print(z)
 
 
 print("-------------------------")
-"""
-Iterate Through a List of Dictionaries
-"""
+# Iterate Through a List of Dictionaries
+
 
 students = [
     {'first_name':  'Michael', 'last_name' : 'Jordan'},
@@ -54,9 +51,8 @@ iterateDictionary(students)
 
 
 print("-------------------------")
-"""
-Get Values From a List of Dictionaries
-"""
+# Get Values From a List of Dictionaries
+
 
 def iterateDictionary2(key_name, some_list):
     for i in range(len(some_list)):
@@ -67,9 +63,8 @@ iterateDictionary2('last_name',students)
 
 
 print("-------------------------")
-"""
-Iterate Through a Dictionary with List Values
-"""
+# Iterate Through a Dictionary with List Values
+
 def printInfo(some_dict):
     for key in some_dict:
         print(len(some_dict[key]),key)
