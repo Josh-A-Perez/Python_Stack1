@@ -33,11 +33,11 @@ class BankAccount:
             self.balance += interest_Amount
         return self   
 
-Josh = BankAccount(.03,1000)
+Steph = BankAccount(.03,1000)
 
-Josh.deposit(100).deposit(120).deposit(200).withdraw(60).yield_interest().display_account_info()
+Steph.deposit(100).deposit(120).deposit(200).withdraw(60).yield_interest().display_account_info()
 
 ###################################################################################################
-Rick = BankAccount(.02,1000)
+Klay = BankAccount(.02,1000)
 
-Rick.deposit(350).deposit(200).withdraw(20).withdraw(80).withdraw(100).withdraw(40).yield_interest().display_account_info()
+Klay.deposit(350).deposit(200).withdraw(20).withdraw(80).withdraw(100).withdraw(40).yield_interest().display_account_info()
